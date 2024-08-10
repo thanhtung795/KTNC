@@ -1,0 +1,67 @@
+package fpoly;
+
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+
+public class testSauce {
+	 WebDriver driver;
+
+	    @BeforeClass
+	    public void setup() {
+//	        System.setProperty("webdriver.chrome.driver", "D:\\FPT\\KTNC\\chromedriver-win64\\chromedriver.exe");
+	        driver = new ChromeDriver();
+	        String url = "https://www.saucedemo.com/";
+			driver.get(url);
+	    }
+
+		@Test(priority = 1)
+	    public void standard_user() {
+	        // Đăng nhập vào trang web
+	        driver.findElement(By.name("user-name")).sendKeys("standard_user");
+	        driver.findElement(By.name("password")).sendKeys("secret_sauce");
+	        driver.findElement(By.name("login-button")).click();
+
+	        // Tìm và click vào button menu
+	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+	        WebElement menuButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("react-burger-menu-btn")));
+	        menuButton.click();
+
+	        // Tìm và click vào button logout
+	        WebElement logoutButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("logout_sidebar_link")));
+	        logoutButton.click();
+
+	        // Kiểm tra xem đã logout hay chưa bằng cách kiểm tra sự hiện diện của button login
+	        boolean isLoginButtonDisplayed = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("login-button"))).isDisplayed();
+	        Assert.assertTrue(isLoginButtonDisplayed, "Logout failed.");
+	    }
+
+		@Test(priority = 2)
+	    public void locked_out_user() {
+	        // Đăng nhập vào trang web
+	        driver.findElement(By.name("user-name")).sendKeys("locked_out_user");
+	        driver.findElement(By.name("password")).sendKeys("secret_sauce");
+	        driver.findElement(By.name("login-button")).click();
+
+	    }
+
+	    
+	    
+	    @AfterClass
+	    public void teardown() {
+	        if (driver != null) {
+//	            driver.quit();
+	        }
+	    }
+}

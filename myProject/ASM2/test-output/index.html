@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\votha\AppData\Local\Temp\testng-eclipse--1469362526\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="fpoly.ASM2" class="method navigator-link" hash-for-method="TTCNTest">TTCNTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="fpoly.ASM2" class="method navigator-link" hash-for-method="ThemVideoTest">ThemVideoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="fpoly.ASM2" class="method navigator-link" hash-for-method="dangKyTest">dangKyTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="fpoly.ASM2" class="method navigator-link" hash-for-method="dangNhapTest">dangNhapTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="fpoly.ASM2" class="method navigator-link" hash-for-method="dangXuatTest">dangXuatTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="fpoly.ASM2" class="method navigator-link" hash-for-method="quanLyVideoTest">quanLyVideoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="fpoly.ASM2" class="method navigator-link" hash-for-method="quenMatKhauTest">quenMatKhauTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="fpoly.ASM2" class="method navigator-link" hash-for-method="thongKeDanhSachThichTest">thongKeDanhSachThichTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="fpoly.ASM2" class="method navigator-link" hash-for-method="thongKeDanhShareTest">thongKeDanhShareTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="fpoly.ASM2" class="method navigator-link" hash-for-method="thongKeTest">thongKeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="fpoly.ASM2" class="method navigator-link" hash-for-method="timVideoTest">timVideoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="fpoly.ASM2" class="method navigator-link" hash-for-method="trangChuTest">trangChuTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="fpoly.ASM2" class="method navigator-link" hash-for-method="updateVideoTest">updateVideoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="fpoly.ASM2" class="method navigator-link" hash-for-method="videoDaThichTest">videoDaThichTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="fpoly.ASM2" class="method navigator-link" hash-for-method="videoDaXemTest">videoDaXemTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="fpoly.ASM2" class="method navigator-link" hash-for-method="xemideoTest">xemideoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">fpoly.ASM2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TTCNTest">
+                  </a> <!-- TTCNTest -->
+                  <span class="method-name">TTCNTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ThemVideoTest">
+                  </a> <!-- ThemVideoTest -->
+                  <span class="method-name">ThemVideoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dangKyTest">
+                  </a> <!-- dangKyTest -->
+                  <span class="method-name">dangKyTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dangNhapTest">
+                  </a> <!-- dangNhapTest -->
+                  <span class="method-name">dangNhapTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dangXuatTest">
+                  </a> <!-- dangXuatTest -->
+                  <span class="method-name">dangXuatTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quanLyVideoTest">
+                  </a> <!-- quanLyVideoTest -->
+                  <span class="method-name">quanLyVideoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quenMatKhauTest">
+                  </a> <!-- quenMatKhauTest -->
+                  <span class="method-name">quenMatKhauTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="thongKeDanhSachThichTest">
+                  </a> <!-- thongKeDanhSachThichTest -->
+                  <span class="method-name">thongKeDanhSachThichTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="thongKeDanhShareTest">
+                  </a> <!-- thongKeDanhShareTest -->
+                  <span class="method-name">thongKeDanhShareTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="thongKeTest">
+                  </a> <!-- thongKeTest -->
+                  <span class="method-name">thongKeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="timVideoTest">
+                  </a> <!-- timVideoTest -->
+                  <span class="method-name">timVideoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="trangChuTest">
+                  </a> <!-- trangChuTest -->
+                  <span class="method-name">trangChuTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateVideoTest">
+                  </a> <!-- updateVideoTest -->
+                  <span class="method-name">updateVideoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="videoDaThichTest">
+                  </a> <!-- videoDaThichTest -->
+                  <span class="method-name">videoDaThichTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="videoDaXemTest">
+                  </a> <!-- videoDaXemTest -->
+                  <span class="method-name">videoDaXemTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xemideoTest">
+                  </a> <!-- xemideoTest -->
+                  <span class="method-name">xemideoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\votha\AppData\Local\Temp\testng-eclipse--1469362526\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;fpoly.ASM2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'xemideoTest')
+data.setCell(0, 2, 'fpoly.ASM2')
+data.setCell(0, 3, 18559);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'dangKyTest')
+data.setCell(1, 2, 'fpoly.ASM2')
+data.setCell(1, 3, 13293);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'quenMatKhauTest')
+data.setCell(2, 2, 'fpoly.ASM2')
+data.setCell(2, 3, 11885);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'timVideoTest')
+data.setCell(3, 2, 'fpoly.ASM2')
+data.setCell(3, 3, 10617);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'updateVideoTest')
+data.setCell(4, 2, 'fpoly.ASM2')
+data.setCell(4, 3, 9858);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'thongKeTest')
+data.setCell(5, 2, 'fpoly.ASM2')
+data.setCell(5, 3, 9753);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'thongKeDanhSachThichTest')
+data.setCell(6, 2, 'fpoly.ASM2')
+data.setCell(6, 3, 9431);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'dangNhapTest')
+data.setCell(7, 2, 'fpoly.ASM2')
+data.setCell(7, 3, 8499);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'thongKeDanhShareTest')
+data.setCell(8, 2, 'fpoly.ASM2')
+data.setCell(8, 3, 7679);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ThemVideoTest')
+data.setCell(9, 2, 'fpoly.ASM2')
+data.setCell(9, 3, 7522);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'videoDaXemTest')
+data.setCell(10, 2, 'fpoly.ASM2')
+data.setCell(10, 3, 6184);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'quanLyVideoTest')
+data.setCell(11, 2, 'fpoly.ASM2')
+data.setCell(11, 3, 6085);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'videoDaThichTest')
+data.setCell(12, 2, 'fpoly.ASM2')
+data.setCell(12, 3, 5417);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'dangXuatTest')
+data.setCell(13, 2, 'fpoly.ASM2')
+data.setCell(13, 3, 5071);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TTCNTest')
+data.setCell(14, 2, 'fpoly.ASM2')
+data.setCell(14, 3, 4419);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'trangChuTest')
+data.setCell(15, 2, 'fpoly.ASM2')
+data.setCell(15, 3, 2888);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">fpoly.ASM2</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">dangNhapTest</span>
+                <span class="method-start">12567 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dangXuatTest</span>
+                <span class="method-start">21072 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xemideoTest</span>
+                <span class="method-start">26146 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">timVideoTest</span>
+                <span class="method-start">44707 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TTCNTest</span>
+                <span class="method-start">55326 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">videoDaXemTest</span>
+                <span class="method-start">59747 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">videoDaThichTest</span>
+                <span class="method-start">65934 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quanLyVideoTest</span>
+                <span class="method-start">71353 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ThemVideoTest</span>
+                <span class="method-start">77440 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateVideoTest</span>
+                <span class="method-start">84965 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">thongKeDanhSachThichTest</span>
+                <span class="method-start">94824 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">thongKeTest</span>
+                <span class="method-start">104256 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">thongKeDanhShareTest</span>
+                <span class="method-start">114011 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">trangChuTest</span>
+                <span class="method-start">121692 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dangKyTest</span>
+                <span class="method-start">124583 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quenMatKhauTest</span>
+                <span class="method-start">137878 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">149765 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

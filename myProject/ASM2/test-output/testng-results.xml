@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-01T12:25:34 ICT" name="Default suite" finished-at="2024-08-01T12:28:10 ICT" duration-ms="155999">
+    <groups>
+    </groups>
+    <test started-at="2024-08-01T12:25:34 ICT" name="Default test" finished-at="2024-08-01T12:28:10 ICT" duration-ms="155999">
+      <class name="fpoly.ASM2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:fpoly.ASM2@6e9a5ed8]" started-at="2024-08-01T12:25:34 ICT" name="setup" finished-at="2024-08-01T12:25:46 ICT" duration-ms="12531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dangNhapTest()[pri:1, instance:fpoly.ASM2@6e9a5ed8]" started-at="2024-08-01T12:25:46 ICT" name="dangNhapTest" finished-at="2024-08-01T12:25:55 ICT" duration-ms="8499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dangNhapTest -->
+        <test-method signature="dangXuatTest()[pri:2, instance:fpoly.ASM2@6e9a5ed8]" started-at="2024-08-01T12:25:55 ICT" name="dangXuatTest" finished-at="2024-08-01T12:26:00 ICT" duration-ms="5071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dangXuatTest -->
+        <test-method signature="xemideoTest()[pri:3, instance:fpoly.ASM2@6e9a5ed8]" started-at="2024-08-01T12:26:00 ICT" name="xemideoTest" finished-at="2024-08-01T12:26:18 ICT" duration-ms="18559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xemideoTest -->
+        <test-method signature="timVideoTest()[pri:4, instance:fpoly.ASM2@6e9a5ed8]" started-at="2024-08-01T12:26:18 ICT" name="timVideoTest" finished-at="2024-08-01T12:26:29 ICT" duration-ms="10617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timVideoTest -->
+        <test-method signature="TTCNTest()[pri:5, instance:fpoly.ASM2@6e9a5ed8]" started-at="2024-08-01T12:26:29 ICT" name="TTCNTest" finished-at="2024-08-01T12:26:33 ICT" duration-ms="4419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TTCNTest -->
+        <test-method signature="videoDaXemTest()[pri:6, instance:fpoly.ASM2@6e9a5ed8]" started-at="2024-08-01T12:26:33 ICT" name="videoDaXemTest" finished-at="2024-08-01T12:26:40 ICT" duration-ms="6184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videoDaXemTest -->
+        <test-method signature="videoDaThichTest()[pri:7, instance:fpoly.ASM2@6e9a5ed8]" started-at="2024-08-01T12:26:40 ICT" name="videoDaThichTest" finished-at="2024-08-01T12:26:45 ICT" duration-ms="5417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videoDaThichTest -->
+        <test-method signature="quanLyVideoTest()[pri:8, instance:fpoly.ASM2@6e9a5ed8]" started-at="2024-08-01T12:26:45 ICT" name="quanLyVideoTest" finished-at="2024-08-01T12:26:51 ICT" duration-ms="6085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quanLyVideoTest -->
+        <test-method signature="ThemVideoTest()[pri:9, instance:fpoly.ASM2@6e9a5ed8]" started-at="2024-08-01T12:26:51 ICT" name="ThemVideoTest" finished-at="2024-08-01T12:26:59 ICT" duration-ms="7522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThemVideoTest -->
+        <test-method signature="updateVideoTest()[pri:10, instance:fpoly.ASM2@6e9a5ed8]" started-at="2024-08-01T12:26:59 ICT" name="updateVideoTest" finished-at="2024-08-01T12:27:08 ICT" duration-ms="9858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateVideoTest -->
+        <test-method signature="thongKeDanhSachThichTest()[pri:11, instance:fpoly.ASM2@6e9a5ed8]" started-at="2024-08-01T12:27:08 ICT" name="thongKeDanhSachThichTest" finished-at="2024-08-01T12:27:18 ICT" duration-ms="9431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thongKeDanhSachThichTest -->
+        <test-method signature="thongKeTest()[pri:11, instance:fpoly.ASM2@6e9a5ed8]" started-at="2024-08-01T12:27:18 ICT" name="thongKeTest" finished-at="2024-08-01T12:27:28 ICT" duration-ms="9753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thongKeTest -->
+        <test-method signature="thongKeDanhShareTest()[pri:12, instance:fpoly.ASM2@6e9a5ed8]" started-at="2024-08-01T12:27:28 ICT" name="thongKeDanhShareTest" finished-at="2024-08-01T12:27:35 ICT" duration-ms="7679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thongKeDanhShareTest -->
+        <test-method signature="trangChuTest()[pri:12, instance:fpoly.ASM2@6e9a5ed8]" started-at="2024-08-01T12:27:35 ICT" name="trangChuTest" finished-at="2024-08-01T12:27:38 ICT" duration-ms="2888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trangChuTest -->
+        <test-method signature="dangKyTest()[pri:13, instance:fpoly.ASM2@6e9a5ed8]" started-at="2024-08-01T12:27:38 ICT" name="dangKyTest" finished-at="2024-08-01T12:27:52 ICT" duration-ms="13293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dangKyTest -->
+        <test-method signature="quenMatKhauTest()[pri:14, instance:fpoly.ASM2@6e9a5ed8]" started-at="2024-08-01T12:27:52 ICT" name="quenMatKhauTest" finished-at="2024-08-01T12:28:03 ICT" duration-ms="11885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quenMatKhauTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:fpoly.ASM2@6e9a5ed8]" started-at="2024-08-01T12:28:03 ICT" name="teardown" finished-at="2024-08-01T12:28:10 ICT" duration-ms="6225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- fpoly.ASM2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

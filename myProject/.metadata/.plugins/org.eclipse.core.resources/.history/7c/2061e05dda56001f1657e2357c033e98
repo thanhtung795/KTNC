@@ -1,0 +1,50 @@
+package fpoly;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class bai2 {
+	static WebDriver driver;
+
+	@BeforeTest
+	public void setup() {
+		driver = new EdgeDriver();
+		String url = "https://www.msn.com";
+		driver.get(url);
+	}
+
+	@Test(priority = 1)
+	public void testCase1() {
+		// Tìm kiếm bằng title
+		driver.findElement(By.cssSelector("input[title='Nhập cụm từ tìm kiếm của bạn']")).sendKeys("tam biet");
+		driver.findElement(By.cssSelector("input[title='Nhập cụm từ tìm kiếm của bạn']")).sendKeys(Keys.ENTER);
+
+		// Kiểm tra xem URL đã thay đổi và có kết quả tìm kiếm
+		String currentUrl = driver.getCurrentUrl();
+		Assert.assertTrue(currentUrl.contains("search"), 
+			"URL hiện tại không chứa 'search'. Tìm kiếm không thành công.");
+
+		// Kiểm tra có kết quả tìm kiếm được hiển thị
+		Assert.assertTrue(driver.findElement(By.id("results")).isDisplayed(), 
+			"Không tìm thấy kết quả tìm kiếm nào.");
+	}
+
+	@AfterTest
+	public void teardown() {
+		if (driver != null) {
+			try {
+				Thread.sleep(6000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+			// Đóng trình duyệt
+			driver.quit();
+		}
+	}
+}

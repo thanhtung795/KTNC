@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="fpoly.ASM2">
+        <methods>
+          <include name="TTCNTest"/>
+          <include name="quenMatKhauTest"/>
+          <include name="updateVideoTest"/>
+          <include name="xemideoTest"/>
+          <include name="thongKeDanhShareTest"/>
+          <include name="videoDaXemTest"/>
+          <include name="dangXuatTest"/>
+          <include name="dangNhapTest"/>
+          <include name="videoDaThichTest"/>
+          <include name="timVideoTest"/>
+          <include name="setup"/>
+          <include name="dangKyTest"/>
+          <include name="quanLyVideoTest"/>
+          <include name="trangChuTest"/>
+          <include name="thongKeTest"/>
+          <include name="thongKeDanhSachThichTest"/>
+          <include name="teardown"/>
+          <include name="ThemVideoTest"/>
+        </methods>
+      </class> <!-- fpoly.ASM2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

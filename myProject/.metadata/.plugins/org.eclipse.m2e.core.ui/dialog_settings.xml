@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\FPT\KTNC\myProject\ASM2"/>
+			<item value="D:\FPT\KTNC\myProject\lab5-maven"/>
+			<item value="D:\FPT\KTNC\myProject\lab2"/>
+			<item value="D:\FPT\KTNC\myProject\lab1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="BaiThiBuoi1"/>
+			<item value="ASM2"/>
+			<item value="lab8"/>
+			<item value="TestLab7"/>
+			<item value="TestlLab7"/>
+			<item value="lab6"/>
+			<item value="lab5-maven"/>
+			<item value="lab4"/>
+			<item value="lab3"/>
+			<item value="lab2"/>
+			<item value="Fpoly"/>
+		</list>
+		<list key="name">
+			<item value="BaiThiBuoi1"/>
+			<item value="ASM2"/>
+			<item value="lab8"/>
+			<item value="TestLab7"/>
+			<item value="lab6"/>
+			<item value="lab5-maven"/>
+			<item value="lab4"/>
+			<item value="lab3"/>
+			<item value="lab2"/>
+		</list>
+		<list key="artifactId">
+			<item value="BaiThiBuoi1"/>
+			<item value="ASM2"/>
+			<item value="lab8"/>
+			<item value="TestLab7"/>
+			<item value="lab6"/>
+			<item value="lab5-maven"/>
+			<item value="lab4"/>
+			<item value="lab3"/>
+			<item value="lab2"/>
+			<item value="lab1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="lab5"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="lab5"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>
